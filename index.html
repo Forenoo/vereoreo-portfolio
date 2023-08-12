@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./dist/hamburgers.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./dist/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <title>vereoreo - portfolio</title>
+</head>
+
+<body>
+    <!-- Navigation Bar Start -->
+    <nav class="fixed w-full bg-slate-50 py-3 top-0">
+        <div class="container flex flex-wrap items-center justify-between mx-auto py-3">
+            <a href="#home" class="flex items-center font-semibold text-[25px]">vereoreo.</a>
+            <div class="flex lg:order-2">
+                <a href="https://www.instagram.com/vereoreo/" target="_blank"><button type="button"
+                        class="text-black hover:text-white bg-transparent ease-in duration-200 hover:bg-black font-medium rounded-full text-sm px-4 py-2 border-2 border-black text-center mr-3 lg:mr-0">Instagram</button></a>
+                <div class="inline-flex items-center w-10 h-10 justify-center pt-1 lg:hidden">
+                    <button class="hamburger hamburger--spin" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div id="navbar"
+                class="hidden absolute lg:block items-center justify-between lg:flex-col text-center lg:order-1 transition-all duration-500 ease-in lg:static top-24 right-4 z-10 w-auto">
+                <ul
+                    class="shadow-lg lg:shadow-none flex flex-col p-3 mt-3 lg:mt-0 border px-9 bg-slate-50 rounded-lg lg:bg-transparent border-gray-300 lg:p-0 font-medium lg:flex-row lg:space-x-12 lg:border-0">
+                    <li><a href="#home"
+                            class="block py-2 px-8 text-gray-500 rounded-full hover:bg-black lg:hover:bg-transparent hover:text-white lg:hover:text-black">Home</a>
+                    </li>
+                    <li><a href="#service"
+                            class="block py-2 px-8 text-gray-500 rounded-full hover:bg-black lg:hover:bg-transparent hover:text-white lg:hover:text-black">Services</a>
+                    </li>
+                    <li><a href="#portfolio"
+                            class="block py-2 px-8 text-gray-500 rounded-full hover:bg-black lg:hover:bg-transparent hover:text-white lg:hover:text-black">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar End -->
+    <!-- Hero Section Start -->
+    <section id="home" class="pb-44 pt-60 bg-white">
+        <div class="container">
+            <div class="flex flex-col">
+                <div class="w-44 mx-auto">
+                    <img src="./dist/images/personal_logo_background.jpg" class="rounded-full shadow-lg">
+                </div>
+                <div class="text-center">
+                    <div class="pt-4 max-w-2xl leading-snug mx-auto">
+                        <h1 class="font-semibold text-[30px] md:text-[40px]">Hello, I'm Ver, Creative Graphic Designer
+                            Based
+                            In indonesia</h1>
+                    </div>
+                    <div class="pt-3 max-w-xl mx-auto">
+                        <p class="font-normal text-lg text-gray-500">I'm a Graphic and UI/UX Designer with experience
+                            for over 2 years. I'm doing what i like and post it.</p>
+                    </div>
+                    <div class="pt-3">
+                        <p id="verdiscord" class="hidden">vereoreo</p>
+                        <button type="button" id="discButton"
+                            class="text-black hover:text-white bg-transparent ease-in duration-200 hover:bg-black font-medium rounded-full text-sm px-3 md:px-5 py-2 md:py-3 border-2 border-black text-center md:mr-0"><i
+                                class="fa-brands fa-discord mr-1"></i>Discord</button>
+                        <a href="#portfolio"><button type="button"
+                                class="text-black hover:text-white bg-transparent ease-in duration-200 hover:bg-black font-medium rounded-full text-sm px-3 md:px-5 py-2 md:py-3 border-2 border-black text-center md:mr-0"><i
+                                    class="fa-solid fa-image mr-1"></i>Portfolio</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+    <!-- Services Section Start -->
+    <section id="service" class="pt-32 pb-56 bg-white">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="text-center mb-16 md:mb-20">
+                    <h2 class="tracking-wider text-[25px] font-semibold md:text-[30px] text-color-primary">Services</h2>
+                    <h1 class="text-[30px] md:text-[40px] font-semibold">Expertise Service! Let's Check It Out</h1>
+                    <h1 class="text-[30px] md:text-[40px] text-gray-400">---</h1>
+                </div>
+                <div class="flex flex-wrap md:flex-row justify-center">
+                    <div
+                        class="group max-w-sm text-center py-16 px-6 ease-in duration-200 bg-gray-50 rounded-2xl mx-4 hover:bg-color-primary ">
+                        <i
+                            class="fa-solid fa-brush text-[60px] ease-in duration-200 bg-color-primary group-hover:bg-white px-5 py-3 rounded-2xl text-white group-hover:text-color-primary"></i>
+                        <h2 class="pt-5 text-2xl font-semibold ease-in duration-200 group-hover:text-white">UI/UX Design
+                        </h2>
+                        <p class="pt-5 text-lg ease-in duration-200 group-hover:text-white">Designing custom interface
+                            that are effective and easy to use by users and customers</p>
+                    </div>
+                    <div
+                        class="group max-w-sm text-center py-16 px-5 ease-in duration-200 bg-gray-50 rounded-2xl mx-4 hover:bg-color-primary lg:mt-0 mt-7">
+                        <i
+                            class="fa-solid fa-fill-drip text-[60px] ease-in duration-200 bg-color-primary group-hover:bg-white px-3 py-3 rounded-2xl text-white group-hover:text-color-primary"></i>
+                        <h2 class="pt-5 text-2xl ease-in duration-200 font-semibold group-hover:text-white">Graphic
+                            Design</h2>
+                        <p class="pt-5 text-lg ease-in duration-200 group-hover:text-white">Convey information about a
+                            product in a unique and creative way through design.</p>
+                    </div>
+                    <div
+                        class="group max-w-sm text-center py-16 px-5 ease-in duration-200 bg-gray-50 rounded-2xl mx-4 hover:bg-color-primary 2xl:my-0 my-7">
+                        <i
+                            class="fa-solid fa-pen-fancy text-[60px] ease-in duration-200 bg-color-primary group-hover:bg-white px-3 py-3 rounded-2xl text-white group-hover:text-color-primary"></i>
+                        <h2 class="pt-5 text-2xl ease-in duration-200 font-semibold group-hover:text-white">Logo Design
+                        </h2>
+                        <p class="pt-5 text-lg ease-in duration-200 group-hover:text-white">Design your logos with best
+                            results and provide you custom design with your satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-32 bg-gray-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="text-center mb-16">
+                    <h3
+                        class="md:text-[25px] text-[20px] tracking-wider font-semibold text-color-primary leading-tight">
+                        Portfolio</h3>
+                    <h1 class="md:text-[40px] text-[35px] font-semibold">My Design Project</h1>
+                    <p class="max-w-2xl md:text-[20px] text-[16px] mx-auto text-gray-400">I like to make a design and
+                        then post it. There is an example of a design projects I have been made.</p>
+                </div>
+            </div>
+            <div class="w-full flex flex-wrap px-4 justify-center">
+                <div class="max-w-sm bg-gray-50 border border-gray-200 shadow-md rounded-lg mx-3 my-3 px-3 py-3">
+                    <img src="./dist/images/project-1.jpg" class="rounded-lg shadow-md">
+                    <div class="pt-3 text-center">
+                        <h5 class="font-semibold text-[20px] text-gray-600">Izuku Midoriya</h5>
+                    </div>
+                    <div class="py-2 text-center">
+                        <a href="https://www.instagram.com/p/CfbzAhfPXGD/?img_index=1" target="_blank"><button
+                                class="text-white bg-color-primary hover:bg-color-primary-hovered ease-in duration-200 font-medium rounded-xl text-sm px-4 py-3"><i
+                                    class="fa-brands fa-instagram mr-1"></i>Instagram</button></a>
+                    </div>
+                </div>
+                <div class="max-w-sm bg-gray-50 border border-gray-200 shadow-md rounded-lg mx-3 my-3 px-3 py-3">
+                    <img src="./dist/images/project-2.jpg" class="rounded-lg shadow-md">
+                    <div class="pt-3 text-center">
+                        <h5 class="font-semibold text-[20px] text-gray-600">forger fam!</h5>
+                    </div>
+                    <div class="py-2 text-center">
+                        <a href="https://www.instagram.com/p/CkqPlyiL3ay/" target="_blank"><button
+                                class="text-white bg-color-primary hover:bg-color-primary-hovered ease-in duration-200 font-medium rounded-xl text-sm px-4 py-3"><i
+                                    class="fa-brands fa-instagram mr-1"></i>Instagram</button></a>
+                    </div>
+                </div>
+                <div class="max-w-sm bg-gray-50 border border-gray-200 shadow-md rounded-lg mx-3 my-3 px-3 py-3">
+                    <img src="./dist/images/project-3.jpg" class="rounded-lg shadow-md">
+                    <div class="pt-3 text-center">
+                        <h5 class="font-semibold text-[20px] text-gray-600">Childhood</h5>
+                    </div>
+                    <div class="py-2 text-center">
+                        <a href="https://www.instagram.com/p/CgUbDjlrHaM/" target="_blank"><button
+                                class="text-white bg-color-primary hover:bg-color-primary-hovered ease-in duration-200 font-medium rounded-xl text-sm px-4 py-3"><i
+                                    class="fa-brands fa-instagram mr-1"></i>Instagram</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full flex flex-wrap px-4 pt-1 justify-center">
+                <div class="max-w-sm bg-gray-50 border border-gray-200 shadow-md rounded-lg mx-3 my-3 px-3 py-3">
+                    <img src="./dist/images/project-4.jpg" class="rounded-lg shadow-md w-[600px]">
+                    <div class="pt-3 text-center">
+                        <h5 class="font-semibold text-[20px] text-gray-600">Yelan from Genshin Impact</h5>
+                    </div>
+                    <div class="py-2 text-center">
+                        <a href="https://www.instagram.com/p/Ce3twEVPSVj/" target="_blank"><button
+                                class="text-white bg-color-primary hover:bg-color-primary-hovered ease-in duration-200 font-medium rounded-xl text-sm px-4 py-3"><i
+                                    class="fa-brands fa-instagram mr-1"></i>Instagram</button></a>
+                    </div>
+                </div>
+                <div class="max-w-sm bg-gray-50 border border-gray-200 shadow-md rounded-lg mx-3 my-3 px-3 py-3">
+                    <img src="./dist/images/project-5.jpg" class="rounded-lg shadow-md w-[600px]">
+                    <div class="pt-3 text-center">
+                        <h5 class="font-semibold text-[20px] text-gray-600">Fate / Part</h5>
+                    </div>
+                    <div class="py-2 text-center">
+                        <a href="https://www.instagram.com/p/CaKeGWkvS_u/" target="_blank"><button
+                                class="text-white bg-color-primary hover:bg-color-primary-hovered ease-in duration-200 font-medium rounded-xl text-sm px-4 py-3"><i
+                                    class="fa-brands fa-instagram mr-1"></i>Instagram</button></a>
+                    </div>
+                </div>
+                <div class="max-w-sm bg-gray-50 border border-gray-200 shadow-md rounded-lg mx-3 my-3 px-3 py-3">
+                    <img src="./dist/images/project-6.jpg" class="rounded-lg shadow-md w-[600px]">
+                    <div class="pt-3 text-center">
+                        <h5 class="font-semibold text-[20px] text-gray-600">Komi shouko</h5>
+                    </div>
+                    <div class="py-2 text-center">
+                        <a href="https://www.instagram.com/p/CcGEPZRv9wc/" target="_blank"><button
+                                class="text-white bg-color-primary hover:bg-color-primary-hovered ease-in duration-200 font-medium rounded-xl text-sm px-4 py-3"><i
+                                    class="fa-brands fa-instagram mr-1"></i>Instagram</button></a>
+                    </div>
+                </div>
+            </div>
+            <h4 class="font-normal text-center py-20 text-gray-500">More design at instagram @veroreeo</h4>
+        </div>
+    </section>
+    <!-- Portfolio Section End -->
+    <!-- Footer Start -->
+    <footer class="bg-gray-200 rounded-t-lg">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center mb-4">
+                    <img src="./dist/images/personal_logo_nobg.png" class="h-16" alt="Flowbite Logo" />
+                </div>
+                <ul class="flex items-center mb-3 text-sm font-medium text-black">
+                    <li>
+                        <a href="#home" class="mr-4 hover:underline md:mr-6 ">Home</a>
+                    </li>
+                    <li>
+                        <a href="#service" class="mr-4 hover:underline md:mr-6">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="mr-4 hover:underline md:mr-6 ">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="md:my-6 mb-3 border-black mx-auto" />
+            <span class="block text-sm text-black text-center">© 2023 vereoreo. All Rights Reserved.</span>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Javascript -->
+    <script src="./src/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+
+</html>
